@@ -85,13 +85,14 @@ a {
 .icon {
 	width:50px;
 	height:80px;
-	margin-left:700px;
+	margin-left:800px;
 	margin-right:auto;
 	border:10px pink;
 }
 .icon img {
 	position:fixed;
 	top:100px;
+	left:900px;
 	right:30px;
 	
 }
