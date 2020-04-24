@@ -1,92 +1,113 @@
 body {
-	background-color:azure;
-	font-family:arial;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	background-color: #defcfc;
 }
 
-.background{
+a {
+	color: pink;
+}
+
+.sky {
+	width:750px;
+	height:1000px;
+	margin-left:500px;
+	margin-right:auto;
+	margin-top:30px;
+	margin-bottom:50px;
+	border:10px solid beige;
+
+}
+
+.sky:hover {
+	border:5px solid red;
+	transform:skew(-15deg);
+	transition:2s;
+}
+
+.sky img {
+	width:100%;
+	height:100%;
+	display: block;
+}
+
+.links {
+	position:fixed;
+	font-size:28px;
+	left:30px;
+	top:110px;
+	font-family: courier;
+
+}
+
+.links a{
+	text-decoration:none;
+	color: #ffa5a5;
+	text-shadow:10px 10px 50px #ffc4d0;
+	display:block;
+}
+
+.links a:hover{
+	color:magenta;
+	transform:skew(15deg);
+}
+
+.name {
+	font-size:140px;
 	text-align:center;
-
+	text-shadow:0px 0px 50px #ffffc2;
 }
 
-.background.one{
-	opacity: 1;
-	display:block;
-	background-image:linear-gradient(azure, pink, yellow);
+.greeting {
+	font-size:150px;
+	text-align:center;
+	text-shadow:0px 0px 50px cyan;
+	font-family: courier;
 }
 
-.background.two{
-	opacity: 0.5;
-	display:block;
-	background-image:radial-gradient(lime, green, blue, azure);
+.greeting a:hover{
+	color:cyan;
+	transform:skew(10deg);
+	transition:0.5s;
 }
 
-.background.three{
-	opacity: 0.4;
-	display:none;
+.copy{
+	font-size:14px;
+	text-align:center;
+	text-transform:uppercase;
+	color: #ffa5a5;
+	background-color:beige;
+	padding:15px;
+	margin-top:10px;
+	margin-bottom:15px;
 }
 
-.background.four{
-	opacity: 0.2;
-	display:none;
+.icon {
+	width:50px;
+	height:80px;
+	margin-left:700px;
+	margin-right:auto;
+	border:10px pink;
+}
+.icon img {
+	position:fixed;
+	top:100px;
+	right:30px;
+	
 }
 
-.mid{
-	color:white;
+
+.icon2 {
+	width:800px;
+	height:500px;
+	margin-left:700px;
+	margin-right:auto;
+	border:10px pink;
 }
-
-.mid.one{
-	color:salmon;
-	font-family:futura;
-	line-height:10vw;
-	transform:skewY(20deg);
+.icon2 img {
+	position:fixed;
+	top:350px;
+	left:1px;
+	
 }
-
-.mid.two{
-	color:pink;
-	font-family:arial;
-	line-height:40vw;
-	transform:skew(-10deg);
-}
-
- .mid.three{
- 	color:blue;
- 	font-family:futura;
- 	line-height:20vw;
- 	transform:skew(40deg);
- }
-
- .mid.four{
- 	color:lightblue;
- 	font-family:arial;
- 	transform:rotate(180deg);
- }
-
- .text{
-
- }
-
- .text.one{
- 	font-size:30px;
- }
-
- .text.two{
- 	font-size:70px;
- }
-
- .text.three{
- 	font-size:200px;
- 	line-height:180px;
- }
-
- .text.four{
- 	font-size:300px;
- 	line-height:235px;
- }
-
-
-
-
-
-
-
 
