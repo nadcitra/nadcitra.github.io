@@ -1,5 +1,5 @@
 body {
-	font-family: Humanoid;
+	font-family: Orator Std;
 	font-size: 32px;
 	background-color:black;
 }
@@ -8,6 +8,96 @@ a {
 	color:red;
 }
 
+/*menu*/
+
+.menu{
+	width:75px;
+	height:75px;
+	border-radius:100%;
+	background-color:blue;
+	position:fixed;
+	top:100px;
+	cursor:pointer;
+	right:100px;
+	z-index:10;
+	padding:50px;
+	transition:1s;
+}
+
+.close{
+	width:75px;
+	height:75px;
+	background-color:yellow;
+	position:fixed;
+	top:100px;
+	right:100px;
+	cursor:pointer;
+	z-index:10;
+	padding:50px;
+	display:none;
+}
+
+.close.show{
+	display:block;
+	transition:1s;
+}
+
+.essay{
+	color:white;
+	width:50%;
+	height:100vh;
+	background-color:grey;
+	position:fixed;
+	right:0px;
+	top:0px;
+	text-align:center;
+	overflow:scroll;
+	margin-right:-50%;
+}
+
+.essay.slide{
+	margin-right:0px;
+	transition:1s;
+}
+
+.essay h1{
+	font-size:65px;
+	text-align:center;
+	padding:50px;
+	font-family:Bebas Neue;
+}
+
+.essay p{
+	padding:20px;
+}
+
+.footnotes{
+	font-size:10px;
+	padding:50px;
+}
+
+
+/*titlepage*/
+
+.container{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.item{
+	width:100%;
+}
+
+.titlepage{
+	height:100vh;
+	background-image:url("titlepagee.jpg");
+	background-size:contain;
+	background-position:center;
+}
+
+
+
+/*black*/
 
 .container {
 	display:flex;
@@ -15,22 +105,34 @@ a {
 }
 
 .item {
-
+	width:100%;
 }
 
-.item1 img{
-	width:100%;
+.title{
 	height:100vh;
+}
+
+.title img{
+	width:100%;
+	display: block;
 }
 
 .w1of1{
 	width:100%;
 }
 
-.w1of2{
-	width:50%;
+.black{
+	background-image: url("first.jpg");
+	background-size:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	width:100%;
 }
 
+.bbg img{
+	height:100vh;
+	position:center;
+}
 
 /*blue*/
 
@@ -48,20 +150,28 @@ a {
 
 .white{
 	background-color:white;
-	padding-left:50px;
-	padding-right:50px;
 }
 
-.scrolling{
-	padding:20px;
+.bg{
+	padding:400px;
 	color:red;
 	font-size:50px;
 	width:100%;
 	position:center;
 	height:300px;
 	font-family: Orator Std;
-	text-align:justify-all;
+	text-align:center;
 	overflow:scroll;
+}
+
+.bg{
+	background-image:url("image3_1.png");
+	background-size:cover;
+	background-position:bottom;
+}
+
+.bg img{
+	width:100%;
 }
 
 /*text1*/
@@ -71,12 +181,21 @@ a {
 	font-size:40px;
 	color:white;
 	text-align:left;
-	font-family: Humanoid;
+	font-family: Bebas Neue;
 	padding-top:30px;
 	padding-bottom:30px;
 }
 
 /*symbol*/
+
+.item{
+	width:100%;
+}
+
+.one{
+	width:100%;
+	display:block;
+}
 
 .symbol{
 	background-color:black;
@@ -84,51 +203,58 @@ a {
 	height:100vh;
 }
 
-.text2{
-	background-color: black;
-	font-size:40px;
-	color:white;
-	text-align:right;
-	font-family: Humanoid;
-	padding-top:30px;
-	padding-bottom:30px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.container{
-	display:flex;
-	flex-wrap:wrap;
-}
-
-.item img{
+.symbol:hover{
+	background-color:black;
 	width:100%;
-}
-
-.w1of5{
-	width:20%;
+	transition:2s;
+	position:center;
+	color:white;
+	font-size:30px;
+	font-family: Orator Std;
+	text-align:justify-all;
+	padding:100px;
+	overflow:scroll;
 }
 
 .w1of2{
 	width:50%;
 }
 
-.end{
-	font-size:14px;
-	text-align:center;
-	text-transform:uppercase;
-	color: white;
-	background-color:black;
-	padding:15px;
-	margin-top:10px;
-	margin-bottom:10px;
+.text2{
+	background-color: black;
+	font-size:40px;
+	color:white;
+	text-align:right;
+	font-family: Bebas Neue;
+	padding-top:30px;
+	padding-bottom:30px;
+	width:100%;
 }
+
+/*hologram*/
+
+.bgg{
+	background-image:url("holoset.jpg");
+	width:100%;
+	background-position:center;
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+
+.bgg img{
+	width:70%;
+	position:center;
+}
+
+
+/*end*/
+
+.end{
+	color:white;
+	padding:30px;
+	font-family:Bebas Neue;
+	text-align:center;
+
+}
+
+
