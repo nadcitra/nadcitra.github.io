@@ -195,6 +195,13 @@ a {
 .one{
 	width:100%;
 	display:block;
+	position:center;
+}
+
+.two{
+	width:100%;
+	display:block;
+	position:center;
 }
 
 .symbol{
