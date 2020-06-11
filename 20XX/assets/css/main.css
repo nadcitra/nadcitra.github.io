@@ -1,0 +1,38 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+.bg{
+	display:flex-wrap;
+	background-image: url("bg/bg4.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.w1of5{
+	width:20%;
+}
+
+.drag-image {
+	width: 10px;
+  	cursor: move;
+  	box-shadow:10px 10px 10px gray;
+  	padding: 0px;
+  	position: relative;
+}
+
+.image-1 {
+	left: 114px;
+    top: -1134px;
+}
+
+.image-2 {
+	left: 114px;
+    top: -100px;
+}
