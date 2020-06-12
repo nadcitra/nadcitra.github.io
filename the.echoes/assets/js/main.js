@@ -8,4 +8,18 @@ $(document).ready(function () {
     $(".essay").removeClass("slide");
     $(".close").removeClass("show");
   });
+
+
+
+
+
+
+
+
+
+   $( function() {
+    $( ".bbg").draggable();
+  } );
+
+
 });

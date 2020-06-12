@@ -9,7 +9,8 @@ a {
 
 .bg{
 	display:flex-wrap;
-	background-image: url("bg/bg4.jpg");
+	width:100%;
+	background-image: url("bg/bg2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
