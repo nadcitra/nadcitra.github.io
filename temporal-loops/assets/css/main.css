@@ -21,13 +21,50 @@ a {
 .item img{
 	width:50%;
 	position:center;
-	padding:50px;
+}
+
+.item:hover{
+	transform:skew(-10deg);
+	transition:1s;
 }
 
 .w1of2{
 	width:50%;
 	position:center;
 }
+
+/*slideone*/
+
+.slideone.slide {
+	margin-left:0;
+	transition:1s;
+}
+
+.image{
+
+}
+
+.scrolling {
+    padding: 20px;
+    font-size: 30px;
+    text-align: justify;
+    overflow: scroll;
+    height: 100%;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    border-left: 1px black solid;
+}
+
+/*slidetwo*/
+
+
+
+
+/*slidethree*/
+
+
+
+/*slidefour*/
 
 
 
