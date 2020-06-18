@@ -33,6 +33,15 @@ a {
 	position:center;
 }
 
+.toggle{
+	position:fixed;
+}
+
+.toggle.show{
+	display:block;
+	transition:1s;
+}
+
 /*slideone*/
 
 
