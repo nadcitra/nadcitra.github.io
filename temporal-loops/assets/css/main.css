@@ -7,18 +7,30 @@ a {
 	color:red;
 }
 
-.bg{
-	display:flex-wrap;
+.container{
+	display:flex;
+	flex-wrap:wrap;
 	width:100%;
-	background-image: url("bg/bg2.jpg");
+	height:100vh;
+	background-image: url("bg/ssbg.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
-.w1of5{
-	width:20%;
+.item img{
+	width:50%;
+	position:center;
+	padding:50px;
 }
+
+.w1of2{
+	width:50%;
+	position:center;
+}
+
+
+
 
 .drag-image {
 	width: 10px;
@@ -26,14 +38,4 @@ a {
   	box-shadow:10px 10px 10px gray;
   	padding: 0px;
   	position: relative;
-}
-
-.image-1 {
-	left: 114px;
-    top: -1134px;
-}
-
-.image-2 {
-	left: 114px;
-    top: -100px;
 }
