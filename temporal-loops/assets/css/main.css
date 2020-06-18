@@ -35,8 +35,15 @@ a {
 
 /*slideone*/
 
-.slideone.slide {
-	margin-left:0;
+
+/*slidetwo*/
+
+
+
+/*slidethree*/
+
+.slidethree.slide {
+	margin-bottom:0;
 	transition:1s;
 }
 
@@ -45,23 +52,12 @@ a {
 }
 
 .scrolling {
-    padding: 20px;
+    padding: 30px;
     font-size: 30px;
-    text-align: justify;
+    text-align: center;
     overflow: scroll;
     height: 100%;
-    border-top: 1px black solid;
-    border-bottom: 1px black solid;
-    border-left: 1px black solid;
 }
-
-/*slidetwo*/
-
-
-
-
-/*slidethree*/
-
 
 
 /*slidefour*/
@@ -69,10 +65,6 @@ a {
 
 
 
-.drag-image {
-	width: 10px;
-  	cursor: move;
-  	box-shadow:10px 10px 10px gray;
-  	padding: 0px;
-  	position: relative;
-}
+
+
+
