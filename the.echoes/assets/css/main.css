@@ -269,6 +269,14 @@ a {
 	width:70%;
 }
 
+.drag-image {
+	width: 10px;
+  	cursor: move;
+  	box-shadow:10px 10px 10px gray;
+  	padding: 0px;
+  	position: relative;
+}
+
 /*end*/
 
 .end{

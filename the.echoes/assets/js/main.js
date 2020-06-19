@@ -21,5 +21,9 @@ $(document).ready(function () {
     $( ".bbg").draggable();
   } );
 
+     $( function() {
+    $( ".bgg").draggable();
+  } );
+
 
 });
