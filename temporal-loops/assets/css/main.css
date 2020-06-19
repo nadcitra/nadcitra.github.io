@@ -20,7 +20,11 @@ a {
 
 .item img{
 	width:50%;
-	position:center;
+}
+
+.slide img{
+	display:block;
+	margin:auto;
 }
 
 .item:hover{
@@ -42,34 +46,67 @@ a {
 	transition:1s;
 }
 
-/*slideone*/
+.panel{
+	width:50%;
+	position:fixed;
+	top:0px;
+	height:100vh;
+	overflow:scroll;
+}
 
-
-/*slidetwo*/
-
-
-
-/*slidethree*/
-
-.slidethree.slide {
-	margin-bottom:0;
+.p-1{
+	left:0px;
+	background-color:lightgrey;
+	margin-left:-50%;
 	transition:1s;
 }
 
-.image{
-
+.p-1.show{
+	margin-left:0%;
+	transition:1s;
 }
 
-.scrolling {
-    padding: 30px;
-    font-size: 30px;
-    text-align: center;
-    overflow: scroll;
-    height: 100%;
+.p-2{
+	right:0px;
+	background-color:lightblue;
+	margin-right:-50%;
+	transition:1s;
+}
+
+.p-2.show{
+	margin-right:0%;
+	transition:1s;
+}
+
+.p-3{
+	left:0px;
+	background-color:lightpink;
+	margin-left:-50%;
+	transition:1s;
+}
+
+.p-3.show{
+	margin-left:0%;
+	transition:1s;
+}
+
+.p-4{
+	right:0px;
+	background-color:lightgrey;
+	margin-right:-50%;
+	transition:1s;
+}
+
+.p-4.show{
+	margin-right:0%;
+	transition:1s;
 }
 
 
-/*slidefour*/
+
+
+
+
 
 
 
