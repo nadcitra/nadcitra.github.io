@@ -249,15 +249,8 @@ a {
 
 /*hologram*/
 
-.drag-image {
-	width: 10px;
-  	cursor: move;
-  	box-shadow:10px 10px 10px gray;
-  	padding: 0px;
-  	position: relative;
-}
 
-.bgg{
+.hologram{
 	background-image:url("holoset2.jpg");
 	width:100%;
 	background-position:center;
@@ -270,9 +263,9 @@ a {
 }
 
 .drag-image {
-	width: 10px;
+	width: 1200px;
   	cursor: move;
-  	box-shadow:10px 10px 10px gray;
+  	box-shadow:10px 10px 10px;
   	padding: 0px;
   	position: relative;
 }
