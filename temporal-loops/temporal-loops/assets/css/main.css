@@ -1,0 +1,163 @@
+body {
+	font-family: Futura PT;
+	font-size: 28px;
+	color:white;
+
+}
+
+a {
+	color:red;
+}
+
+.container{
+	display:flex;
+	flex-wrap:wrap;
+	width:100%;
+	height:100vh;
+	background-image: url("bg/ssbg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.item img{
+	width:50%;
+}
+
+.slide img{
+	display:block;
+	margin:auto;
+}
+
+.item:hover{
+	transform:skew(-10deg);
+	transition:1s;
+}
+
+.w1of2{
+	width:50%;
+	position:center;
+}
+
+.toggle{
+	position:fixed;
+}
+
+.toggle.show{
+	display:block;
+	transition:1s;
+}
+
+.panel{
+	width:50%;
+	position:fixed;
+	top:0px;
+	height:100vh;
+	overflow:scroll;
+}
+
+.p-1{
+	left:0px;
+	background-color:lightgrey;
+	margin-left:-50%;
+	transition:1s;
+}
+
+.p-1.show{
+	margin-left:0%;
+	transition:1s;
+}
+
+.p-1 img{
+	width:100%;
+}
+
+.p-1-close img{
+	width:10%;
+	padding:15px;
+}
+
+.p-2{
+	right:0px;
+	background-color:lightblue;
+	margin-right:-50%;
+	transition:1s;
+}
+
+.p-2.show{
+	margin-right:0%;
+	transition:1s;
+}
+
+.p-2 img{
+	width:100%;
+}
+
+.p-2-close img{
+	width:10%;
+	padding:15px;
+	margin-left:645px;
+}
+
+.p-3{
+	left:0px;
+	background-color:lightpink;
+	margin-left:-50%;
+	transition:1s;
+}
+
+.p-3.show{
+	margin-left:0%;
+	transition:1s;
+}
+
+.p-3 img{
+	width:100%;
+}
+
+.p-3-close img{
+	width:10%;
+	padding:15px;
+}
+
+.p-4{
+	right:0px;
+	background-color:lightgrey;
+	margin-right:-50%;
+	transition:1s;
+}
+
+.p-4 img{
+	width:100%;
+}
+
+.p-4.show{
+	margin-right:0%;
+	transition:1s;
+}
+
+.p-4-close img{
+	width:10%;
+	padding:15px;
+	margin-left:645px;
+}
+
+.interview{
+	text-align:center;
+}
+
+.footnotes{
+	font-size:14px;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
