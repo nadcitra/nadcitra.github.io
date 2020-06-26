@@ -1,6 +1,6 @@
 body {
 	font-family: Futura PT;
-	font-size: 28px;
+	font-size: 26px;
 	color:white;
 
 }
@@ -8,6 +8,7 @@ body {
 a {
 	color:red;
 }
+
 
 .container{
 	display:flex;
@@ -18,6 +19,10 @@ a {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+.container{
+	cursor:url("bg/emoji.png"), auto;
 }
 
 .item img{
@@ -61,6 +66,7 @@ a {
 	background-color:lightgrey;
 	margin-left:-50%;
 	transition:1s;
+	cursor:url("bg/alien.png"), auto;
 }
 
 .p-1.show{
@@ -82,6 +88,7 @@ a {
 	background-color:lightblue;
 	margin-right:-50%;
 	transition:1s;
+	cursor:url("bg/kda.png"), auto;
 }
 
 .p-2.show{
@@ -99,11 +106,16 @@ a {
 	margin-left:645px;
 }
 
+.KDA{
+	text-align:center;
+}
+
 .p-3{
 	left:0px;
 	background-color:lightpink;
 	margin-left:-50%;
 	transition:1s;
+	cursor:url("bg/hatm.png"), auto;
 }
 
 .p-3.show{
@@ -120,11 +132,16 @@ a {
 	padding:15px;
 }
 
+.world{
+	text-align:center;
+}
+
 .p-4{
 	right:0px;
 	background-color:lightgrey;
 	margin-right:-50%;
 	transition:1s;
+	cursor:url("bg/music.png"), auto;
 }
 
 .p-4 img{
